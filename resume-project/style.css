@@ -1,0 +1,247 @@
+body {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.fa {
+  padding: 20px;
+  width: 125px;
+  height: 125px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background: #858585;
+  color: white;
+  font-size: 300px;
+  float: right;
+}
+
+.fa-google {
+  background: #858585;
+  color: white;
+  font-size: 300px;
+  float: left;
+}
+
+.fa-facebook {
+  color: white;
+  position: relative;
+  left: 60px;
+}
+
+.fa-twitter {
+  position: relative;
+  left: 50px;
+  color: white;
+}
+
+.fa-linkedin-in {
+  color: white;
+  position: relative;
+  left: 425px;
+}
+
+h1 {
+  text-align: center;
+  font-style: bold;
+  font-size: 5em;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+h3 {
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.tops {
+  margin-bottom: 50px;
+}
+
+.col-md-8 {
+  margin-top: 50px;
+  margin-bottom: 300px;
+}
+
+.col-md-6 {
+  background-color: #353535;
+  border-left: 7px solid #1e1e1e;
+  border-right: 7px solid #1e1e1e;
+}
+
+.col-md-4 {
+  background-color: #353535;
+  border-left: 7px solid #1e1e1e;
+  border-right: 7px solid #1e1e1e;
+}
+
+.col {
+  background-color: #353535;
+  border-left: 7px solid #1e1e1e;
+  border-right: 7px solid #1e1e1e;
+}
+
+.LargerText {
+  font-size: 18px;
+}
+
+.jobtitle {
+  font-weight: 700;
+  font-size: 35px;
+  padding-top: 25px;
+  padding-left: 35px;
+}
+
+.organization {
+  font-size: 25px;
+  padding-left: 35px;
+}
+
+.date {
+  font-size: 20px;
+  padding-left: 35px;
+  padding-top: 5px;
+  font-style: italic;
+}
+
+p {
+  font-size: 135%;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-right: 100px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.JobLogo {
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: -100px;
+}
+
+.SectionBreak {
+  line-height: 750%;
+  background-color: #1e1e1e;
+}
+
+
+.container-fluid {
+  position: relative;
+  top: 300px;
+  width: 100%;
+
+}
+
+.AddPadding {
+  padding-left: 120px;
+  font-size: 25px;
+}
+
+.AddPadding2 {
+  margin-left: -35px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.AddPadding3 {
+  text-align: center;
+  margin-left: -300px;
+}
+
+.SkillTitle {
+  text-decoration: underline;
+}
+
+.SectionHeading {
+  position: relative;
+  top: 300px;
+  text-decoration: underline;
+}
+
+.Topper {
+  margin-top: -50px;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-bottom: 5px solid white;
+}
+
+.Headshot {
+  align-content: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: -300px;
+  left: 0;
+  margin-bottom: -550px;
+}
+
+.parent {
+  position: relative;
+ top: 0;
+ left: 0;
+}
+
+
+@media (max-width: 575px) {
+
+  h1 {
+    font-size: 4em;
+  }
+
+
+  .col-md-2 {
+    max-width: 100%;
+    max-height: auto;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .col-md-8 {
+    margin-bottom: 250px;
+  }
+
+  .col-md-2 {
+    font-size: 45%;
+  }
+
+  .fa {
+    width: 75px;
+    height: 75px;
+
+  }
+
+  .Topper {
+    margin-top: -50px;
+  }
+
+  .fa-linkedin-in {
+    position: relative;
+    left: 325px;
+
+}
+
+@media (max-width: 991px) {
+  .Topper {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 1199px) { ... }

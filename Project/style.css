@@ -1,0 +1,30 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.col-md-4 {
+  text-align: center;
+  padding: 20px;
+}
+
+.Headline {
+  text-align: center;
+}
+
+.Byline {
+  text-align: center;
+}
+
+.ChapHeadline {
+  margin-left: 50px;
+}
+
+.ChapText {
+  margin-left: 50px;
+}

@@ -1,0 +1,165 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-size: 1.75em;
+}
+
+.DCCovid {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.wholetext {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.col-md-4 {
+  text-align: center;
+  padding: 20px;
+}
+
+.Headline {
+  text-align: center;
+}
+
+.Byline {
+  text-align: center;
+}
+
+.ChapHeadline {
+  text-align: center;
+}
+
+.ChapText {
+  margin-left: 50px;
+}
+
+.col {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  left: 0px;
+  right: 0px;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+.Topper {
+  padding-bottom: 50px;
+}
+
+.warning {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.legend {
+  margin-bottom: 50px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.Prices {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.col-md-10 {
+  border-bottom: 5px solid black;
+  font-size: 1.5em;
+}
+
+.col-md-9 {
+  margin-left: -100px;
+
+}
+
+.col-md-2 {
+  padding-top: 45px;
+  padding-bottom: 20px;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  font-size: 1.5em;
+}
+
+.col-md-3 {
+  margin-left: -125px;
+}
+
+.covidtitle {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.LearnMore {
+  text-align: center;
+  font-size: 2.25em;
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+}
+
+.PriceComp {
+  text-align: center;
+  font-size: 2.25em;
+  padding-bottom: 40px;
+}
+
+.ava {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.kenil {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 2.5em;
+  border-left: 8px solid red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .col-md-3 {
+  width: 25%;
+}
+
+.col-md-9 {
+  width: 25%;
+}
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
